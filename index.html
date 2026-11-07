@@ -3,151 +3,155 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Petr Lutsenko — Unity Developer & Team Lead</title>
-  <meta name="description" content="Petr Lutsenko, Unity Developer and Team Lead. Portfolio of mobile and web games, technical skills and professional contacts.">
+  <title data-i18n="pageTitle">Petr Lutsenko — Unity Developer & Team Lead</title>
+  <meta data-i18n-content="pageDescription" name="description" content="Petr Lutsenko, Unity Developer and Team Lead. Portfolio of mobile and web games, technical skills and professional contacts.">
   <meta name="theme-color" content="#101317">
   <meta name="color-scheme" content="dark">
-  <meta property="og:title" content="Petr Lutsenko — Unity Developer & Team Lead">
-  <meta property="og:description" content="Mobile and web game portfolio. 6+ years of commercial Unity development experience.">
+  <meta data-i18n-content="pageTitle" property="og:title" content="Petr Lutsenko — Unity Developer & Team Lead">
+  <meta data-i18n-content="ogDescription" property="og:description" content="Mobile and web game portfolio. 6+ years of commercial Unity development experience.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=2">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=3">
+  <script src="script.js?v=3" defer></script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
   <header>
-    <nav aria-label="Main navigation">
-      <a href="#work">Projects</a>
-      <a href="#about">About me</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contacts</a>
+    <nav aria-label="Main navigation" data-i18n-aria-label="aria_label0">
+      <a href="#work" data-i18n="projects">Projects</a>
+      <a href="#about" data-i18n="about">About me</a>
+      <a href="#skills" data-i18n="skills">Skills</a>
+      <a href="#contact" data-i18n="contacts">Contacts</a>
     </nav>
+    <div class="language-switch" role="group" aria-label="Language">
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="true" class="active">EN</button>
+      <button type="button" data-language="ru" lang="ru" aria-label="Русский" aria-pressed="false">RU</button>
+    </div>
   </header>
   <main id="main">
     <section class="hero" aria-labelledby="profile-title">
-      <h1 id="profile-title">Petr Lutsenko</h1>
-      <p class="professional-title">Unity Developer &amp; Team Lead</p>
-      <p class="hero-description">6+ years of commercial experience in game development.<br>Currently Development Team Lead at Azur Games.</p>
+      <h1 id="profile-title" data-i18n="name">Petr Lutsenko</h1>
+      <p class="professional-title" data-i18n="role">Unity Developer &amp; Team Lead</p>
+      <p class="hero-description"><span data-i18n="experience">6+ years of commercial experience in game development.</span><br><span data-i18n="currentRole">Currently Development Team Lead at Azur Games.</span></p>
       <div class="hero-links">
-        <a class="button" href="#work">View projects</a>
+        <a class="button" href="#work" data-i18n="viewProjects">View projects</a>
         <a class="secondary-button" href="https://www.linkedin.com/in/petr-lutsenko-937632223/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </section>
     <section id="work" class="work" aria-labelledby="projects-title">
       <div class="section-top">
-        <h2 id="projects-title">Projects</h2>
-        <div class="filters" role="group" aria-label="Filter projects">
-          <button class="active" data-filter="all" aria-pressed="true">All</button>
-          <button data-filter="mobile" aria-pressed="false">Mobile</button>
-          <button data-filter="web" aria-pressed="false">Web</button>
+        <h2 id="projects-title" data-i18n="projects">Projects</h2>
+        <div class="filters" role="group" aria-label="Filter projects" data-i18n-aria-label="aria_label1">
+          <button class="active" data-filter="all" aria-pressed="true" data-i18n="all">All</button>
+          <button data-filter="mobile" aria-pressed="false" data-i18n="mobile">Mobile</button>
+          <button data-filter="web" aria-pressed="false" data-i18n="web">Web</button>
         </div>
       </div>
       <div class="project-grid">
       <article class="project" data-category="mobile">
-        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.playgendary.tanks" target="_blank" rel="noopener noreferrer" aria-label="View Tank Stars on Google Play">
-          <img class="screen" src="assets/tank-stars-0.webp" alt="Tank Stars — gameplay screenshot" loading="lazy">
+        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.playgendary.tanks" target="_blank" rel="noopener noreferrer" aria-label="View Tank Stars on Google Play" data-i18n-aria-label="aria_label2">
+          <img class="screen" src="assets/tank-stars-0.webp" alt="Tank Stars — gameplay screenshot" data-i18n-alt="alt0" loading="lazy">
           <img class="game-icon" src="assets/tank-stars-icon.webp" alt="" loading="lazy">
         </a>
         <div class="project-content">
-          <p class="project-meta">Mobile · Turn-based artillery</p>
+          <p class="project-meta" data-i18n="tankStarsMeta">Mobile · Turn-based artillery</p>
           <h3>Tank Stars</h3>
-          <p class="project-description">A 2D artillery game with turn-based tank battles. Players position their tanks, select weapons and calculate firing trajectories to defeat opponents across different arenas.</p>
-          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.playgendary.tanks" target="_blank" rel="noopener noreferrer">View on Google Play</a>
+          <p class="project-description" data-i18n="tankStarsDescription">A 2D artillery game with turn-based tank battles. Players position their tanks, select weapons and calculate firing trajectories to defeat opponents across different arenas.</p>
+          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.playgendary.tanks" target="_blank" rel="noopener noreferrer" data-i18n="googlePlay">View on Google Play</a>
         </div>
       </article>
       <article class="project" data-category="mobile">
-        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.azurgames.tankrogue" target="_blank" rel="noopener noreferrer" aria-label="View Tank Busters on Google Play">
-          <img class="screen" src="assets/tank-busters-0.webp" alt="Tank Busters — gameplay screenshot" loading="lazy">
+        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.azurgames.tankrogue" target="_blank" rel="noopener noreferrer" aria-label="View Tank Busters on Google Play" data-i18n-aria-label="aria_label3">
+          <img class="screen" src="assets/tank-busters-0.webp" alt="Tank Busters — gameplay screenshot" data-i18n-alt="alt1" loading="lazy">
           <img class="game-icon" src="assets/tank-busters-icon.webp" alt="" loading="lazy">
         </a>
         <div class="project-content">
-          <p class="project-meta">Mobile · Tactical tank combat</p>
+          <p class="project-meta" data-i18n="tankBustersMeta">Mobile · Tactical tank combat</p>
           <h3>Tank Busters</h3>
-          <p class="project-description">A physics-based tank combat game with enemy waves, destructible terrain and boss encounters. Players choose upgrades during each level and combine projectiles, airstrikes and combat effects.</p>
-          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.azurgames.tankrogue" target="_blank" rel="noopener noreferrer">View on Google Play</a>
+          <p class="project-description" data-i18n="tankBustersDescription">A physics-based tank combat game with enemy waves, destructible terrain and boss encounters. Players choose upgrades during each level and combine projectiles, airstrikes and combat effects.</p>
+          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.azurgames.tankrogue" target="_blank" rel="noopener noreferrer" data-i18n="googlePlay">View on Google Play</a>
         </div>
       </article>
       <article class="project" data-category="mobile">
-        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.playgendary.hitmasters" target="_blank" rel="noopener noreferrer" aria-label="View Hitmasters on Google Play">
-          <img class="screen" src="assets/hitmasters-0.webp" alt="Hitmasters — gameplay screenshot" loading="lazy">
+        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.playgendary.hitmasters" target="_blank" rel="noopener noreferrer" aria-label="View Hitmasters on Google Play" data-i18n-aria-label="aria_label4">
+          <img class="screen" src="assets/hitmasters-0.webp" alt="Hitmasters — gameplay screenshot" data-i18n-alt="alt2" loading="lazy">
           <img class="game-icon" src="assets/hitmasters-icon.webp" alt="" loading="lazy">
         </a>
         <div class="project-content">
-          <p class="project-meta">Mobile · Physics puzzle</p>
+          <p class="project-meta" data-i18n="hitmastersMeta">Mobile · Physics puzzle</p>
           <h3>Hitmasters</h3>
-          <p class="project-description">A physics-based action puzzle game built around aiming and projectile trajectories. Players use weapons and environmental interactions to eliminate enemies and solve increasingly complex levels.</p>
-          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.playgendary.hitmasters" target="_blank" rel="noopener noreferrer">View on Google Play</a>
+          <p class="project-description" data-i18n="hitmastersDescription">A physics-based action puzzle game built around aiming and projectile trajectories. Players use weapons and environmental interactions to eliminate enemies and solve increasingly complex levels.</p>
+          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.playgendary.hitmasters" target="_blank" rel="noopener noreferrer" data-i18n="googlePlay">View on Google Play</a>
         </div>
       </article>
       <article class="project" data-category="mobile">
-        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.bigfishgames.cookingcrazegooglef2p" target="_blank" rel="noopener noreferrer" aria-label="View Cooking Craze on Google Play">
-          <img class="screen" src="assets/cooking-craze-0.webp" alt="Cooking Craze — gameplay screenshot" loading="lazy">
+        <a class="project-image" href="https://play.google.com/store/apps/details?id=com.bigfishgames.cookingcrazegooglef2p" target="_blank" rel="noopener noreferrer" aria-label="View Cooking Craze on Google Play" data-i18n-aria-label="aria_label5">
+          <img class="screen" src="assets/cooking-craze-0.webp" alt="Cooking Craze — gameplay screenshot" data-i18n-alt="alt3" loading="lazy">
           <img class="game-icon" src="assets/cooking-craze-icon.webp" alt="" loading="lazy">
         </a>
         <div class="project-content">
-          <p class="project-meta">Mobile · Time management</p>
+          <p class="project-meta" data-i18n="cookingMeta">Mobile · Time management</p>
           <h3>Cooking Craze</h3>
-          <p class="project-description">A restaurant time-management game featuring cuisines from around the world. Players prepare dishes, serve customers, upgrade kitchen equipment and unlock restaurants in different cities.</p>
-          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.bigfishgames.cookingcrazegooglef2p" target="_blank" rel="noopener noreferrer">View on Google Play</a>
+          <p class="project-description" data-i18n="cookingDescription">A restaurant time-management game featuring cuisines from around the world. Players prepare dishes, serve customers, upgrade kitchen equipment and unlock restaurants in different cities.</p>
+          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.bigfishgames.cookingcrazegooglef2p" target="_blank" rel="noopener noreferrer" data-i18n="googlePlay">View on Google Play</a>
         </div>
       </article>
       <article class="project" data-category="web">
-        <a class="project-image" href="https://yandex.ru/games/app/516073?lang=ru" target="_blank" rel="noopener noreferrer" aria-label="View Natural Disaster Survival on Yandex Games">
-          <img class="screen" src="assets/natural-disaster-survival.png" alt="Natural Disaster Survival — game cover" loading="lazy">
+        <a class="project-image" href="https://yandex.ru/games/app/516073?lang=ru" target="_blank" rel="noopener noreferrer" aria-label="View Natural Disaster Survival on Yandex Games" data-i18n-aria-label="aria_label6">
+          <img class="screen" src="assets/natural-disaster-survival-cover.png" alt="Natural Disaster Survival — game cover" data-i18n-alt="alt4" loading="lazy">
         </a>
         <div class="project-content">
-          <p class="project-meta">WebGL · Survival</p>
-          <h3>Natural Disaster Survival</h3>
-          <p class="project-description">An online survival game set on destructible maps. Players navigate obstacles and avoid disasters such as floods, lava and tornadoes while competing to survive the longest.</p>
-          <a class="store-link" href="https://yandex.ru/games/app/516073?lang=ru" target="_blank" rel="noopener noreferrer">View on Yandex Games</a>
+          <p class="project-meta" data-i18n="disasterMeta">WebGL · Survival</p>
+          <h3 data-i18n="disasterName">Natural Disaster Survival</h3>
+          <p class="project-description" data-i18n="disasterDescription">An online survival game set on destructible maps. Players navigate obstacles and avoid disasters such as floods, lava and tornadoes while competing to survive the longest.</p>
+          <a class="store-link" href="https://yandex.ru/games/app/516073?lang=ru" target="_blank" rel="noopener noreferrer" data-i18n="yandexGames">View on Yandex Games</a>
         </div>
       </article>
       <article class="project" data-category="web">
-        <a class="project-image" href="https://yandex.ru/games/app/517143?lang=ru" target="_blank" rel="noopener noreferrer" aria-label="View Last to Leave Circle on Yandex Games">
-          <img class="screen" src="assets/last-to-leave-circle.png" alt="Last to Leave Circle — game cover" loading="lazy">
+        <a class="project-image" href="https://yandex.ru/games/app/517143?lang=ru" target="_blank" rel="noopener noreferrer" aria-label="View Last to Leave Circle on Yandex Games" data-i18n-aria-label="aria_label7">
+          <img class="screen" src="assets/last-to-leave-circle-cover.png" alt="Last to Leave Circle — game cover" data-i18n-alt="alt5" loading="lazy">
         </a>
         <div class="project-content">
-          <p class="project-meta">WebGL · Competitive survival</p>
-          <h3>Last to Leave Circle</h3>
-          <p class="project-description">An online elimination game in a shrinking arena. Players stay inside the circle, navigate platforming challenges and avoid traps while competing to be the last survivor.</p>
-          <a class="store-link" href="https://yandex.ru/games/app/517143?lang=ru" target="_blank" rel="noopener noreferrer">View on Yandex Games</a>
+          <p class="project-meta" data-i18n="circleMeta">WebGL · Competitive survival</p>
+          <h3 data-i18n="circleName">Last to Leave Circle</h3>
+          <p class="project-description" data-i18n="circleDescription">An online elimination game in a shrinking arena. Players stay inside the circle, navigate platforming challenges and avoid traps while competing to be the last survivor.</p>
+          <a class="store-link" href="https://yandex.ru/games/app/517143?lang=ru" target="_blank" rel="noopener noreferrer" data-i18n="yandexGames">View on Yandex Games</a>
         </div>
       </article>
       </div>
     </section>
     <section id="about" class="about" aria-labelledby="about-title">
-      <h2 id="about-title">About me</h2>
+      <h2 id="about-title" data-i18n="about">About me</h2>
       <div class="about-copy">
-        <p>Unity developer specializing in 2D and 3D games for PC, Android, iOS and WebGL.</p>
-        <p>My technical focus includes game architecture, dependency injection, MVx and ECS, as well as CPU/GPU performance, memory usage and build size optimization.</p>
-        <p>I apply OOP, SOLID and design patterns in production, with attention to product requirements and business processes. I also integrate AI agents into development and code review workflows.</p>
+        <p data-i18n="aboutOne">Unity developer specializing in 2D and 3D games for PC, Android, iOS and WebGL.</p>
+        <p data-i18n="aboutTwo">My technical focus includes game architecture, dependency injection, MVx and ECS, as well as CPU/GPU performance, memory usage and build size optimization.</p>
+        <p data-i18n="aboutThree">I apply OOP, SOLID and design patterns in production, with attention to product requirements and business processes. I also integrate AI agents into development and code review workflows.</p>
       </div>
     </section>
     <section id="skills" class="stack" aria-labelledby="skills-title">
-      <h2 id="skills-title">Skills</h2>
+      <h2 id="skills-title" data-i18n="skills">Skills</h2>
       <div class="skills">
       <div class="skill">
-        <h3>Game development</h3>
+        <h3 data-i18n="gameDevelopment">Game development</h3>
         <ul>
           <li>Unity · C#</li>
-          <li>OOP · SOLID · Design patterns</li>
+          <li data-i18n="patterns">OOP · SOLID · Design patterns</li>
           <li>Zenject · VContainer · MVx</li>
           <li>UniTask · LeoECS · DOTween</li>
-          <li>Client–server architecture</li>
+          <li data-i18n="clientServer">Client–server architecture</li>
         </ul>
       </div>
       <div class="skill">
-        <h3>Optimization & content</h3>
+        <h3 data-i18n="optimizationContent">Optimization & content</h3>
         <ul>
-          <li>CPU / GPU optimization</li>
-          <li>Memory &amp; build size optimization</li>
+          <li data-i18n="cpuGpu">CPU / GPU optimization</li>
+          <li data-i18n="memoryBuild">Memory &amp; build size optimization</li>
           <li>Addressables · AssetBundles</li>
           <li>PC · Android · iOS · WebGL</li>
         </ul>
       </div>
       <div class="skill">
-        <h3>Services & production</h3>
+        <h3 data-i18n="servicesProduction">Services & production</h3>
         <ul>
           <li>Firebase · AppLovin · ironSource</li>
           <li>AppsFlyer · AppMetrica · Facebook</li>
@@ -157,26 +161,26 @@
         </ul>
       </div>
       <div class="skill">
-        <h3>Web & development tools</h3>
+        <h3 data-i18n="webTools">Web & development tools</h3>
         <ul>
           <li>Vue · TypeScript · ASP.NET</li>
           <li>MongoDB</li>
           <li>Claude Code · Codex</li>
-          <li>AI-assisted coding &amp; code review</li>
+          <li data-i18n="aiCoding">AI-assisted coding &amp; code review</li>
         </ul>
       </div>
       </div>
     </section>
     <section id="contact" class="contact" aria-labelledby="contacts-title">
-      <h2 id="contacts-title">Contacts</h2>
+      <h2 id="contacts-title" data-i18n="contacts">Contacts</h2>
       <div class="contact-links">
-        <a href="mailto:petrolutsenko@gmail.com"><span>Email</span><strong>petrolutsenko@gmail.com</strong></a>
+        <a href="mailto:petrolutsenko@gmail.com"><span data-i18n="email">Email</span><strong>petrolutsenko@gmail.com</strong></a>
         <a href="https://t.me/peta5622" target="_blank" rel="noopener noreferrer"><span>Telegram</span><strong>@peta5622</strong></a>
-        <a href="https://www.linkedin.com/in/petr-lutsenko-937632223/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Petr Lutsenko</strong></a>
+        <a href="https://www.linkedin.com/in/petr-lutsenko-937632223/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong data-i18n="name">Petr Lutsenko</strong></a>
         <a href="https://github.com/peta562" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>peta562</strong></a>
       </div>
     </section>
   </main>
-  <footer><span>© 2026 Petr Lutsenko</span><a href="#">Back to top</a></footer>
+  <footer><a href="#" data-i18n="backToTop">Back to top</a></footer>
 </body>
 </html>

@@ -98,3 +98,16 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 22px
   h3 { font-size: 21px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Language selection */
+header { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.language-switch { display: flex; gap: 2px; flex-shrink: 0; }
+.language-switch button { padding: 5px 9px; border: 1px solid transparent; border-radius: 4px; background: transparent; color: var(--muted); font-size: 12px; cursor: pointer; }
+.language-switch button.active { color: var(--text); border-color: var(--border); background: var(--surface); }
+.language-switch button:hover { color: var(--text); }
+footer { justify-content: flex-end; }
+@media (max-width: 620px) {
+  header { flex-wrap: wrap; gap: 15px; }
+  header nav { flex-basis: 100%; justify-content: space-between; }
+  .language-switch { margin-left: auto; }
+}
