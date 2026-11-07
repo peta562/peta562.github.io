@@ -36,7 +36,7 @@ const translations = {
     "servicesProduction": "Services & production",
     "webTools": "Web & development tools",
     "patterns": "OOP · SOLID · Design patterns",
-    "clientServer": "Client–server architecture",
+    "clientServer": "Client–server communication · REST · gRPC",
     "cpuGpu": "CPU / GPU optimization",
     "memoryBuild": "Memory & build size optimization",
     "aiCoding": "AI-assisted coding & code review",
@@ -66,7 +66,8 @@ const translations = {
     "farmingDescription": "A farming and time-management game combining crop cultivation, animal care and food preparation. Players manage farms, collect produce and run businesses such as a village bakery.",
     "farmingMeta": "Mobile · Farming & time management",
     "farmingLabel": "View Farming Fever on Google Play",
-    "farmingAlt": "Farming Fever — gameplay screenshot"
+    "farmingAlt": "Farming Fever — gameplay screenshot",
+    "multiplayer": "Multiplayer"
   },
   "ru": {
     "skip": "Перейти к содержимому",
@@ -105,7 +106,7 @@ const translations = {
     "servicesProduction": "Сервисы и рабочие процессы",
     "webTools": "Веб и инструменты разработки",
     "patterns": "ООП · SOLID · Паттерны проектирования",
-    "clientServer": "Клиент-серверная архитектура",
+    "clientServer": "Клиент-серверное взаимодействие · REST · gRPC",
     "cpuGpu": "Оптимизация CPU / GPU",
     "memoryBuild": "Оптимизация памяти и размера сборки",
     "aiCoding": "Разработка и код-ревью с ИИ",
@@ -135,7 +136,8 @@ const translations = {
     "farmingDescription": "Фермерская игра с элементами тайм-менеджмента. Игроки выращивают урожай, ухаживают за животными, готовят блюда и управляют хозяйствами и небольшими предприятиями, включая деревенскую пекарню.",
     "farmingMeta": "Мобильная игра · Ферма и тайм-менеджмент",
     "farmingLabel": "Открыть Farming Fever в Google Play",
-    "farmingAlt": "Farming Fever — скриншот игры"
+    "farmingAlt": "Farming Fever — скриншот игры",
+    "multiplayer": "Мультиплеер"
   }
 };
 
