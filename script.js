@@ -62,7 +62,11 @@ const translations = {
     "mergeDescription": "A merging game where players combine identical bombs to unlock more powerful variants. They upgrade production, earn coins and launch bombs at enemy bases.",
     "mergeMeta": "WebGL · Merge game",
     "mergeLabel": "View Merge A Nuke on Yandex Games",
-    "mergeAlt": "Merge A Nuke — game cover"
+    "mergeAlt": "Merge A Nuke — game cover",
+    "farmingDescription": "A farming and time-management game combining crop cultivation, animal care and food preparation. Players manage farms, collect produce and run businesses such as a village bakery.",
+    "farmingMeta": "Mobile · Farming & time management",
+    "farmingLabel": "View Farming Fever on Google Play",
+    "farmingAlt": "Farming Fever — gameplay screenshot"
   },
   "ru": {
     "skip": "Перейти к содержимому",
@@ -127,7 +131,11 @@ const translations = {
     "mergeDescription": "Игра в жанре слияния: игроки объединяют одинаковые бомбы, чтобы открывать более мощные варианты. Улучшают производство, зарабатывают монеты и запускают бомбы по вражеским базам.",
     "mergeMeta": "WebGL · Слияние",
     "mergeLabel": "Открыть Merge A Nuke в Яндекс Играх",
-    "mergeAlt": "Merge A Nuke — обложка игры"
+    "mergeAlt": "Merge A Nuke — обложка игры",
+    "farmingDescription": "Фермерская игра с элементами тайм-менеджмента. Игроки выращивают урожай, ухаживают за животными, готовят блюда и управляют хозяйствами и небольшими предприятиями, включая деревенскую пекарню.",
+    "farmingMeta": "Мобильная игра · Ферма и тайм-менеджмент",
+    "farmingLabel": "Открыть Farming Fever в Google Play",
+    "farmingAlt": "Farming Fever — скриншот игры"
   }
 };
 
