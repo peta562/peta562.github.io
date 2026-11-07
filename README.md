@@ -18,15 +18,11 @@ The intended URL is https://peta562.github.io/.
 
 ## Edit
 
-- `index.html`: profile, projects, contributions, skills and contact links.
+- `index.html`: profile, game descriptions, skills and contact links.
 - `style.css`: colors, typography and responsive layout.
 - `script.js`: project category filters.
 - `assets/`: official mobile game screenshots and icons downloaded from the Google Play listings linked on the page.
 
-The two web projects currently use typographic cover designs, not gameplay screenshots. Replace these with project images when available.
+The portfolio uses a dark theme, formal English copy and official game screenshots/covers. The web project cover images come from the linked Yandex Games listings.
 
-## Content notes
-
-All career and contribution claims are supplied by Petr. Tank Stars and Tank Busters share the leadership and engineering case study. No specific responsibilities have been assigned to Hitmasters beyond inclusion in the commercial portfolio. Web games are presented as independent solo projects.
-
-Company links: https://azurgames.com/ and https://www.matryoshka.com/.
+Project cards describe the games rather than personal responsibilities. The About me section covers technical focus without employment history. Career facts in the profile are supplied by Petr.
