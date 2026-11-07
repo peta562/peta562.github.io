@@ -9,7 +9,6 @@ const translations = {
     "role": "Unity Developer & Team Lead",
     "experience": "6+ years of commercial experience in game development.",
     "currentRole": "Currently Development Team Lead at Azur Games.",
-    "viewProjects": "View projects",
     "all": "All",
     "mobile": "Mobile",
     "web": "Web",
@@ -59,7 +58,11 @@ const translations = {
     "alt5": "Last to Leave Circle — game cover",
     "pageTitle": "Petr Lutsenko — Unity Developer & Team Lead",
     "pageDescription": "Petr Lutsenko, Unity Developer and Team Lead. Portfolio of mobile and web games, technical skills and professional contacts.",
-    "ogDescription": "Mobile and web game portfolio. 6+ years of commercial Unity development experience."
+    "ogDescription": "Mobile and web game portfolio. 6+ years of commercial Unity development experience.",
+    "mergeDescription": "A merging game where players combine identical bombs to unlock more powerful variants. They upgrade production, earn coins and launch bombs at enemy bases.",
+    "mergeMeta": "WebGL · Merge game",
+    "mergeLabel": "View Merge A Nuke on Yandex Games",
+    "mergeAlt": "Merge A Nuke — game cover"
   },
   "ru": {
     "skip": "Перейти к содержимому",
@@ -71,7 +74,6 @@ const translations = {
     "role": "Unity-разработчик и тимлид",
     "experience": "Более 6 лет коммерческого опыта в разработке игр.",
     "currentRole": "В настоящее время — руководитель команды разработки в Azur Games.",
-    "viewProjects": "Посмотреть проекты",
     "all": "Все",
     "mobile": "Мобильные",
     "web": "Веб",
@@ -121,7 +123,11 @@ const translations = {
     "alt5": "Кто последний выйдет из круга — обложка игры",
     "pageTitle": "Петр Луценко — Unity-разработчик и тимлид",
     "pageDescription": "Петр Луценко, Unity-разработчик и тимлид. Портфолио мобильных и веб-игр, технические навыки и контакты.",
-    "ogDescription": "Портфолио мобильных и веб-игр. Более 6 лет коммерческого опыта разработки на Unity."
+    "ogDescription": "Портфолио мобильных и веб-игр. Более 6 лет коммерческого опыта разработки на Unity.",
+    "mergeDescription": "Игра в жанре слияния: игроки объединяют одинаковые бомбы, чтобы открывать более мощные варианты. Улучшают производство, зарабатывают монеты и запускают бомбы по вражеским базам.",
+    "mergeMeta": "WebGL · Слияние",
+    "mergeLabel": "Открыть Merge A Nuke в Яндекс Играх",
+    "mergeAlt": "Merge A Nuke — обложка игры"
   }
 };
 

@@ -35,9 +35,7 @@ h1 { font-size: clamp(36px, 4.5vw, 54px); font-weight: 600; letter-spacing: -1.5
 .professional-title { margin-top: 13px; font-size: 22px; font-weight: 400; color: var(--accent); }
 .hero-description { margin-top: 23px; color: var(--muted); font-size: 16px; line-height: 1.8; }
 .hero-links { display: flex; gap: 12px; margin-top: 28px; }
-.button, .secondary-button { display: inline-flex; align-items: center; justify-content: center; padding: 10px 19px; font-size: 14px; border: 1px solid var(--border); border-radius: 4px; }
-.button { background: var(--accent); border-color: var(--accent); color: #101820; font-weight: 600; }
-.button:hover { background: #b0cdf2; border-color: #b0cdf2; color: #101820; }
+.secondary-button { display: inline-flex; align-items: center; justify-content: center; padding: 10px 19px; font-size: 14px; border: 1px solid var(--border); border-radius: 4px; }
 .secondary-button { color: var(--text); }
 .secondary-button:hover { border-color: var(--accent); }
 section + section { margin-top: 62px; }
